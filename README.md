@@ -5,10 +5,10 @@
 ## Installation
 ```
 ~/Game Directory/
-└── Modules/
-    ├── EarthFixes.ieo
-    ├── EarthTmpExtensions.ieo
-    └── EarthTmpExtensions.ini (Optional)
+    └── Modules/
+      ├── EarthFixes.ieo
+      ├── EarthTmpExtensions.ieo
+      └── EarthTmpExtensions.ini (Optional)
 ```
 ## [Features](https://wiki.insideearth.info/wiki/EarthTmpExtensions#Features)
 

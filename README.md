@@ -4,7 +4,7 @@
 
 ## Installation
 ```
-/Game Directory/
+~/Game Directory/
 └── Modules/
     ├── EarthFixes.ieo
     ├── EarthTmpExtensions.ieo

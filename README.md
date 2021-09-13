@@ -1,3 +1,5 @@
+![Logo](logo.png)
+
 # [IEO Earth2150 Extensions](https://wiki.insideearth.info/wiki/EarthTmpExtensions)
 
 ## Installation

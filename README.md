@@ -1,15 +1,16 @@
 ![Logo](logo.png)
+# IEO Earth2150 Extensions
 
-# [IEO Earth2150 Extensions](https://wiki.insideearth.info/wiki/EarthTmpExtensions)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.0.14.zip)
 
-## Installation
+### Installation
 ```
-~/Game Directory/
-    └── Modules/
-      ├── EarthFixes.ieo
-      ├── EarthTmpExtensions.ieo
-      └── EarthTmpExtensions.ini (Optional)
+/Game Directory/
+└── Modules/
+    ├── EarthFixes.ieo
+    ├── EarthTmpExtensions.ieo
+    └── EarthTmpExtensions.ini (Optional)
 ```
-## [Features](https://wiki.insideearth.info/wiki/EarthTmpExtensions#Features)
+### [Features](https://wiki.insideearth.info/wiki/EarthTmpExtensions#Features)
 
-## [Configuration](https://wiki.insideearth.info/wiki/EarthTmpExtensions#Configuration)
+### [Configuration](https://wiki.insideearth.info/wiki/EarthTmpExtensions#Configuration)

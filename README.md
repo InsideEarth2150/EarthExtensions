@@ -1,6 +1,6 @@
 # [IEO Earth2150 Extensions](https://wiki.insideearth.info/wiki/EarthTmpExtensions)
 
-## Instalation
+## Installation
 ```
 /Game Directory/
 └── Modules/

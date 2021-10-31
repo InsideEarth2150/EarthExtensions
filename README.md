@@ -14,4 +14,4 @@
 ### [Features](https://wiki.insideearth.info/wiki/EarthTmpExtensions#Features)
 
 ### [Configuration](https://wiki.insideearth.info/wiki/EarthTmpExtensions#Configuration)
-### [Eaxample Configuration in](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.ini)
+#### [Eaxample Configuration .ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.ini)

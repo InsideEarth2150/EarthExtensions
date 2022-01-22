@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.0.17.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.0.18.zip)
 
 ### Installation
 ```

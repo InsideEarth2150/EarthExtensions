@@ -17,6 +17,11 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.ini)
 
 ### Changelog:
+1.0.20:
+   - display LC power range
+   - extened Solar Power Plant and Mine binds, so that they build Xyrex or Upg. Mine (if researched)
+   
+### Changelog:
 1.0.19:
    - auto add chat-channel prefix to sent messages (All/Team/Neutral/Direct)
    

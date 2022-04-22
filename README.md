@@ -19,7 +19,7 @@
 ### Changelog:
 1.0.20:
    - display LC power range
-   - extened Solar Power Plant and Mine binds, so that they build Xyrex or Upg. Mine (if researched)
+   - extended Solar Power Plant and Mine binds, so that they build Xyrex or Upg. Mine (if researched)
    
 ### Changelog:
 1.0.19:

@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.0.20.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.0.21.zip)
 
 ### Installation
 ```
@@ -17,13 +17,16 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.ini)
 
 ### Changelog:
+1.0.21:
+   - auto clear/archive Temp and Scripts directories on game start
+   
 1.0.20:
    - display LC power range
    - extended Solar Power Plant and Mine binds, so that they build Xyrex or Upg. Mine (if researched)
    
-### Changelog:
 1.0.19:
    - auto add chat-channel prefix to sent messages (All/Team/Neutral/Direct)
+   
    
 1.0.17:
    - new experimental feature of reducing GUI input lag when giving orders (until proves stable, it requires manual activation in the ini file)

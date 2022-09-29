@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.0.21.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.0.23.zip)
 
 ### Installation
 ```
@@ -17,6 +17,19 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.ini)
 
 ### Changelog:
+1.0.23:
+   - added completed/next research notification
+1.0.22:
+   - added mouse wheel support for scrolling up/down the research tree
+   - added mouse wheel support for scrolling up/down the research center (the basic view with 4 tabs)
+   - added mouse wheel support for side panels, like builder's production options or fabs production queues
+   - added mouse wheel support for bottom panel, like list of buildings, or LC's construction tab
+   - added mouse wheel support for chassis/weapon/shield (although shield is never scrollable) selection in Constructor menu (F1)
+   - added mouse wheel support for panel with saved units template in Constructor menu (F1)
+   - added mouse wheel support for weapon/shield (although shield is never scrollable) selection in Building weapons menu (F3)
+   - added mouse wheel support for panel with list of buildings in Building weapons menu (F3)
+   - added keyboard arrows support for scrolling up/down/left/right the research tree
+   - added keyboard arrows support for scrolling up/down the research center (the basic view with 4 tabs)
 1.0.21:
    - auto clear/archive Temp and Scripts directories on game start
    

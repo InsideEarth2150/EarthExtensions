@@ -19,6 +19,7 @@
 ### Changelog:
 1.0.23:
    - added completed/next research notification
+   
 1.0.22:
    - added mouse wheel support for scrolling up/down the research tree
    - added mouse wheel support for scrolling up/down the research center (the basic view with 4 tabs)
@@ -30,6 +31,7 @@
    - added mouse wheel support for panel with list of buildings in Building weapons menu (F3)
    - added keyboard arrows support for scrolling up/down/left/right the research tree
    - added keyboard arrows support for scrolling up/down the research center (the basic view with 4 tabs)
+   
 1.0.21:
    - auto clear/archive Temp and Scripts directories on game start
    

@@ -17,6 +17,9 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.ini)
 
 ### Changelog:
+1.0.24:
+   - allow mouse wheel zooming inversion (disabled by default)
+   
 1.0.23:
    - added completed/next research notification
    

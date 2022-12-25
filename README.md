@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.0.24.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.0.25.zip)
 
 ### Installation
 ```
@@ -17,6 +17,12 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.ini)
 
 ### Changelog:
+1.0.25:
+   - prevent cancellation of recording mode by dragging mouse (accidental queue cancellation)
+   - added custom building icons - configurable: ON (always on)/OFF (always off)/HOTKEY (shown on held ALT):
+      - idle/znooze icons for buildings if they are nto in working state (all fabs, mines, research centers, loaded MDWs)
+      - progress icons for all ongoing productions, researches, charging of MDWs and LC batteries (shown with ALT key by default)
+	  
 1.0.24:
    - allow mouse wheel zooming inversion (disabled by default)
    

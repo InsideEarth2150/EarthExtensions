@@ -20,7 +20,7 @@
 1.0.25:
    - prevent cancellation of recording mode by dragging mouse (accidental queue cancellation)
    - added custom building icons - configurable: ON (always on)/OFF (always off)/HOTKEY (shown on held ALT):
-      - idle/znooze icons for buildings if they are nto in working state (all fabs, mines, research centers, loaded MDWs)
+      - idle/snooze icons for buildings if they are not in working state (all fabs, mines, research centers, loaded MDWs)
       - progress icons for all ongoing productions, researches, charging of MDWs and LC batteries (shown with ALT key by default)
 	  
 1.0.24:

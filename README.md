@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.0.25.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.26.4.zip)
 
 ### Installation
 ```
@@ -17,12 +17,22 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.ini)
 
 ### Changelog:
+
+1.26.0:
+   - multilanguage (EN/DE/PL/RU) support for custom labels
+   - fixed research translation mechanism that could potentially lead to a crash
+   - extended selection info for batteries and MDW structures
+   - enabled selection info for allied structures
+   - extended allied structures' selection info by current money (for mine and refinery) and current research (for research center)
+   - extended game crash logging
+   - desync detection for multiplayer games
+
 1.0.25:
    - prevent cancellation of recording mode by dragging mouse (accidental queue cancellation)
    - added custom building icons - configurable: ON (always on)/OFF (always off)/HOTKEY (shown on held ALT):
       - idle/snooze icons for buildings if they are not in working state (all fabs, mines, research centers, loaded MDWs)
       - progress icons for all ongoing productions, researches, charging of MDWs and LC batteries (shown with ALT key by default)
-	  
+
 1.0.24:
    - allow mouse wheel zooming inversion (disabled by default)
    

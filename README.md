@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.26.4.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.27.0.zip)
 
 ### Installation
 ```
@@ -17,6 +17,20 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.ini)
 
 ### Changelog:
+
+1.27.0:
+   - fixed FPS calculation on some intel CPUs (the `display.show 1` command)
+   - adjusted AnimButton/MeshButton rotation speed to the Desired FPS (fix for fast spinning blueprints)
+   - rendering optimizations (5%-20% FPS improvement)
+   - increased max game speed for single player (up to 1150%, default was 150%)
+   - change speed messages display the current speed in %
+   - fix for false desync alarms when transferring/capturing units
+   - added `/shrug/`, `/tableflip` and `/unflip` chat emojis known from Discord
+   - new hotkeys/shortcuts (replacing "Select platoon" shortcuts in game options):
+      - toggle building power
+      - sell building
+      - select next idle builder
+      - select next idle mining unit (Taiga/Harvester)
 
 1.26.0:
    - multilanguage (EN/DE/PL/RU) support for custom labels

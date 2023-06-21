@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.27.0.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.28.1.zip)
 
 ### Installation
 ```
@@ -17,6 +17,13 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.ini)
 
 ### Changelog:
+
+1.28.1:
+   - fixed spectators crashing if they attempted to use new shortcuts introduced one version before (select next builder/mining unit)
+   - demo/replay recording of multiplayer games (no playback yet)
+   - stats recording - every multiplayer and skirmish game generates a stats file that can be later viewed in the stats viewer app
+   - extebded logging - each crash goes to a separate file, more info is logged, screenshot is taken (if possible)
+   - temp files are not archived by default but permanently deleted, as the game kept on reading them from the archive directory
 
 1.27.0:
    - fixed FPS calculation on some intel CPUs (the `display.show 1` command)

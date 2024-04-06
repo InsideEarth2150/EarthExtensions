@@ -1,23 +1,35 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.1.28.1.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.1.1.zip)
 
 ### Installation
 ```
 ~/Game Directory/
+   ├── discord_game_sdk.dll
    └── Modules/
-      ├── EarthFixes.ieo
-      ├── EarthTmpExtensions.ieo
-      └── EarthTmpExtensions.ini (Optional)
+      ├── EarthExtensions.ieo
+      └── EarthExtensions.ini (Optional)
 ```
 ### [Features](https://wiki.insideearth.info/wiki/EarthTmpExtensions#Features)
 
 ### [Configuration](https://wiki.insideearth.info/wiki/EarthTmpExtensions#Configuration)
-#### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthTmpExtensions.ini)
+#### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.ini)
 
 ### Changelog:
 
+2.1.0:
+   - (!) broke compatibility with versions before 2.1.1.2 (singleplayer) and 2.2.1.3 (multiplayer)
+   - changed name of the module from EarthTmpExtensions.ieo to EarthExtensions.ieo
+   - Discord integration - Discord now correctly detects the game without need to manually select exe etc. Discord status displays more details about your in-game actions
+   - fixed rendering artifacts appearing on larger zoomouts
+   - extended crash logs, again - added logging of all loaded libraries
+   - join lobby messages - when a player joins lobby, a message gets displayed, along with random seed of the player. Players with different random seed will most likely cause a desynchronisation, so it is a way to spot it early.
+   - enabled starting multiplayer games without any other players or even AIs. That way you can train in MP mode (there are small differences), or even record demos of your solo games (since they are technically multiplayer games).
+   - minimap is refreshed every frame what makes it look much smoother
+   - editor GUI enhancements - larger brushes for texturing/terrain modification
+   - editor fixes - fixed the mechanism of trees/rocks generation that not only failed to be random at times, but could also crash the game, fixed a few more crashes (Average function for terrain, placing resources near level margin)
+   
 1.28.1:
    - fixed spectators crashing if they attempted to use new shortcuts introduced one version before (select next builder/mining unit)
    - demo/replay recording of multiplayer games (no playback yet)

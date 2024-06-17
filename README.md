@@ -19,7 +19,7 @@
 ### Changelog:
 
 2.1.0:
-   - (!) broke compatibility with versions before 2.1.1.2 (singleplayer) and 2.2.1.3 (multiplayer)
+   - (!) broke compatibility with versions before 2.1.1.1 (singleplayer) and 2.2.1.3 (multiplayer)
    - changed name of the module from EarthTmpExtensions.ieo to EarthExtensions.ieo
    - Discord integration - Discord now correctly detects the game without need to manually select exe etc. Discord status displays more details about your in-game actions
    - fixed rendering artifacts appearing on larger zoomouts

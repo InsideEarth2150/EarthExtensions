@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.1.3.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.2.0.zip)
 
 ### Installation
 ```
@@ -18,6 +18,10 @@
 
 ### Changelog:
 
+2.2.0:
+   - new mass production queue button available from within Constructor panel
+   - AnimButton/MeshButton rotation speed fix can be now disabled in configuration if needed
+
 2.1.0:
    - (!) broke compatibility with versions before 2.1.1.1 (singleplayer) and 2.2.1.3 (multiplayer)
    - changed name of the module from EarthTmpExtensions.ieo to EarthExtensions.ieo
@@ -29,12 +33,12 @@
    - minimap is refreshed every frame what makes it look much smoother
    - editor GUI enhancements - larger brushes for texturing/terrain modification
    - editor fixes - fixed the mechanism of trees/rocks generation that not only failed to be random at times, but could also crash the game, fixed a few more crashes (Average function for terrain, placing resources near level margin)
-   
+
 1.28.1:
    - fixed spectators crashing if they attempted to use new shortcuts introduced one version before (select next builder/mining unit)
    - demo/replay recording of multiplayer games (no playback yet)
    - stats recording - every multiplayer and skirmish game generates a stats file that can be later viewed in the stats viewer app
-   - extebded logging - each crash goes to a separate file, more info is logged, screenshot is taken (if possible)
+   - extended logging - each crash goes to a separate file, more info is logged, screenshot is taken (if possible)
    - temp files are not archived by default but permanently deleted, as the game kept on reading them from the archive directory
 
 1.27.0:

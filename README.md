@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.2.0.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.3.0.zip)
 
 ### Installation
 ```
@@ -17,6 +17,17 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.ini)
 
 ### Changelog:
+
+2.3.0:
+   - added new shortcut (replaced existing "Go to next unit") - "Select next object of the same kind". The shortcut allows toggling between buildings/units of the same kind
+   - fixed/enhanced select next idle builder/harvester shortcuts, so that the closest unit gets selected. The mechanism attempts to ignore units that are stuck/blocked etc
+   - extended format of stats files - 2 new metrics and detailed summary info for each unit
+   - demo player - it is finally possible to replay recorded games
+   - multiplayer game lobby displays player colors
+   - game lobby enhancements - elements were rearranged, dropdowns size got increased
+   - added "Kill count" display for defensive structures, artillery and MDW.
+   - fixed a bug for the largest brush size of average function in editor
+   - optimization: certain visual effects stop being rendered past some distance from the camera
 
 2.2.0:
    - new mass production queue button available from within Constructor panel

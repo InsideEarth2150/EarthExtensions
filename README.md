@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.3.1.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.4.0.zip)
 
 ### Installation
 ```
@@ -17,6 +17,12 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.ini)
 
 ### Changelog:
+
+2.4.0
+   - fixed next idle building/harvester shortcut, so that it doesn't select a unit that already received an order (lag dependent)
+   - selecting mine/refinery/supply center/taiga/harvester/supplier highlights related objects (for example, selecting UCS refinery highlights assigned harvesters). The feature is enabled by default and is configurable as: ON (always on)/OFF (always off)/HOTKEY (shown on held ALT).
+   - QuickRecord can be set to toggle mode (instead of hold/release). Configurable, disabled by default.
+   - fixed display of progressbars on scoreboard
 
 2.3.0:
    - added new shortcut (replaced existing "Go to next unit") - "Select next object of the same kind". The shortcut allows toggling between buildings/units of the same kind

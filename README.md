@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.4.0.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.5.0.zip)
 
 ### Installation
 ```
@@ -18,8 +18,20 @@
 
 ### Changelog:
 
-2.4.0
-   - fixed next idle building/harvester shortcut, so that it doesn't select a unit that already received an order (lag dependent)
+2.5.0:
+   - display notification in chat when you receive unit(s) or money from other player
+   - auto-accept all incoming alliance offers within first 30 seconds of game - no more alliance popups in early game
+   - change taiga source/destination markers into more distinguishable yellow circles used by harvesters
+   - second fix to next idle builder/harvester shortcut, that could still select wrong unit in 2.4.0
+   - building info panel (bottom right text, previously altered in 1.26.0) changes:
+      - fixed panel not refreshing at times
+      - show % progress on "Next researches" list
+      - show "Next researches" list for own research centers too (used to be only on allies)
+      - fixed power calculations for batteries (the in/out energy would display improperly during partial/total blackouts)
+      - fixed power plant produced/consumed energy displays, so that it doesn't take battery input/output into account, what led to showing useless and redundant data for LC
+
+2.4.0:
+   - fixed next idle builder/harvester shortcut, so that it doesn't select a unit that already received an order (lag dependent)
    - selecting mine/refinery/supply center/taiga/harvester/supplier highlights related objects (for example, selecting UCS refinery highlights assigned harvesters). The feature is enabled by default and is configurable as: ON (always on)/OFF (always off)/HOTKEY (shown on held ALT).
    - QuickRecord can be set to toggle mode (instead of hold/release). Configurable, disabled by default.
    - fixed display of progressbars on scoreboard

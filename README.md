@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.5.0.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.5.1.zip)
 
 ### Installation
 ```
@@ -17,6 +17,9 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.ini)
 
 ### Changelog:
+
+2.5.1
+   - new Ieo.EarthNetReset command that resets login and password stored for the current profile
 
 2.5.0:
    - display notification in chat when you receive unit(s) or money from other player

@@ -18,7 +18,25 @@
 
 ### Changelog:
 
-2.5.1
+2.6.0:
+   - support LC walls in "Select next object" shortcut
+   - editor fixes/enhancements
+      - fix max zoom resetting to default every time you close the game
+      - removing tunnels no longer removes passives on the surface
+      - placing trees, stones etc no longer removes objects/artifacts in the tunnels
+      - fixed disappearing "\[?\]" button in some language+resolution configs
+      - editor now plays random day/night music instead of menu music
+   - all structures show "Kill count" (not only defensive ones and MDW)
+   - enhanced unit selection options
+      - "Select all ground units" got replaced with "Select all air support units" (phoboses, scouts etc)
+      - "Select all air units" got replaced with "Select all air military units"
+      - "Select all military units" got replaced with "Select all ground military units"
+      - "Select all civil units" got replaced with "Select all ground support units" (civil units with banners, shadows, radars)
+      - "Select all ground military units" includes ground support units by default
+   - new stats metric - "Commands sent"
+   - creating a dedicated profile for replaying demos should no longer be needed
+   
+2.5.1:
    - new Ieo.EarthNetReset command that resets login and password stored for the current profile
 
 2.5.0:

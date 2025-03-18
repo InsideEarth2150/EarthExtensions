@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.6.0.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.7.0.zip)
 
 ### Installation
 ```
@@ -18,6 +18,14 @@
 
 ### Changelog:
 
+2.7.0:
+   - made player colors on the minimap brighter
+   - minimap terrain colors can be switched to grayscale
+   - new stats metrics: buildings under construction, number of operating mining entities and number of research centers
+   - extended Discord integration - Discord now shows "EarthNet", "Multiplayer lobby" and "Spectating a game" states
+   - fixed weapons rendering bug in F2 panel
+   - entering lobby displays more info about the player (all MP-relevant modules are listed)
+   
 2.6.0:
    - support LC walls in "Select next object" shortcut
    - editor fixes/enhancements

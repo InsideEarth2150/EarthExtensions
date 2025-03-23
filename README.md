@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.7.0.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.8.0.zip)
 
 ### Installation
 ```
@@ -17,6 +17,13 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.ini)
 
 ### Changelog:
+
+2.8.0:
+   - fixed mass production lag issues in MP games
+   - changed Mass Production button primary behaviour, added 1 new option - see in game tooltip for details
+   - game logs damage/kills dealt by mines (they are not being assigned to instigating minelayers unfortunately)
+   - fixed subbuildings order getting mixed for MDW in "Select next object" shortcut
+   - crash logs now log memory usage information
 
 2.7.0:
    - made player colors on the minimap brighter

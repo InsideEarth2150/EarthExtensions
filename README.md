@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.8.0.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.9.0.zip)
 
 ### Installation
 ```
@@ -17,6 +17,28 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.ini)
 
 ### Changelog:
+
+2.9.0:
+   - new stats metrics:
+      - builders count
+      - suppliers count
+      - military units in combat (shown as percentage of all units)
+      - experience level (shown as average unit level)
+      - shadow unit coverage
+      - banner unit coverage
+      - factories count
+      - repaired HP
+      - CR value of repaired HP
+   - own and ally factories present information about current and next queued production
+   - EarthNet and MP lobby now have dedicated music
+   - fixed bug in color glow calculation (introduced in 2.4.0), that caused incorrect display of objects with high temperature
+   - saved research center tab selection will be reset when game ends (avoiding the "UCS EQ rush" trap)
+   - random positions checkbox reduced in width by 50% (what makes it harder to select by accident)
+   - research center tree view is now 2x smaller (2x more elements are displayed)
+   - interface scaling - x0.75 by default
+   - fixed broken "Random positions" algorithm, which was making positions only partially random
+   - crash logs store flag about Wine usage (which indicates Linux OS)
+   - excluded "Change script" popup from autoclosing when selection changes
 
 2.8.0:
    - fixed mass production lag issues in MP games

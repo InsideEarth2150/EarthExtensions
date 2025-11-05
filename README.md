@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.9.0.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.10.0.zip)
 
 ### Installation
 ```
@@ -17,6 +17,34 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.ini)
 
 ### Changelog:
+
+2.10.0
+   - fixed Temp/Scripts directories cleanup - the files will be now properly deleted
+   - added logging of some more memory usage data in crash logs that can potentially help in diagnosis of some memory issues on Linux
+   - automated group control creation is now available not only from the factory level, but globally in the constructor (F1) panel.
+   - it is now possible to set mouse sensitivity below minimum (new config parameter "MouseSensitivityModifier", default 0.2125, which scales mouse sensitivity globally)
+   - (advanced) extended anim button parameters configuration, which alters the way rotating buttons are displayed. "Modifier" options allow applying constant value to the parameter, while "Scale" options multiply the original mesh value. New config options:
+      - AnimButtonPositionXModifier (default 0.0);
+      - AnimButtonPositionXScale (default 1.0);
+      - AnimButtonPositionYModifier (default 0.0);
+      - AnimButtonPositionYScale (default 1.0);
+      - AnimButtonPositionZModifier (default 0.0);
+      - AnimButtonPositionZScale (default 1.0);
+      - AnimButtonPositionAlphaModifier (default 0.0);
+      - AnimButtonPositionAlphaScale (default 1.0);
+      - AnimButtonPositionBetaModifier (default 0.0);
+      - AnimButtonPositionBetaScale (default 1.0);
+      - AnimButtonRotationAlphaModifier (default 0.0);
+      - AnimButtonRotationAlphaScale (default 1.0);
+      - AnimButtonRotationBetaModifier (default 0.0);
+      - AnimButtonRotationBetaScale (default 1.0);
+      - AnimButtonRotationPhiModifier (default 0.0);
+      - AnimButtonRotationPhiScale (default 1.0);
+   - option to disable animation rotation speed fix (ApplyAnimationRotationFix) is no longer available. Instead, one can achieve the same with the configuration above, by setting `AnimButtonRotationAlphaScale = your_desired_fps/20`, for isntance, `AnimButtonRotationAlphaScale = 9.0` for 180 FPS
+   - it is no longer possible to accidentally place artillery with "small tower" shortcut (technically it was possible if you researched artillery as LC without researching Nests)
+   - Medium Defense shortcut now builds "A3 towers" instead of weaker "Large towers" if both are available
+   - research tree size can be now configured. Used to be `SmallerResearchTree` config option, that could toggle between original (4 rows) and smaller (8 rows, default) version. This option is no longer available. Instead, you can specify the exact amount of research tree rows that you want to see with `ResearchTreeRows` config parameter (default 8)
+   - another attempt (this time hopefully successful) to fix scoreboard music getting cancelled
 
 2.9.0:
    - new stats metrics:

@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 # IEO Earth2150 Extensions
 
-### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.10.0.zip)
+### ▶ [Latest Release](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.2.11.0.zip)
 
 ### Installation
 ```
@@ -17,6 +17,10 @@
 #### [Example Configuration.ini](https://github.com/InsideEarth2150/EarthExtensions/raw/main/TMP_LS/EarthExtensions.ini)
 
 ### Changelog:
+
+2.11.0
+   - more gamespeed options in skirmish (up to +10000%, if your PC can handle it)
+   - joining a lobby displays 7 last characters of your game parameters hash
 
 2.10.0
    - fixed Temp/Scripts directories cleanup - the files will be now properly deleted

@@ -18,6 +18,30 @@
 
 ### Changelog:
 
+2.12.0
+   - new D3D11 renderer - reimplemented rendering layer
+      - multiple visual enhancements, such as: SMAA, high quality shadows, dynamic lights, darker nights, ambient occlusion, water shader, cloud shadows, bloom, soft particles, lava heat haze
+      - another +1000% (yes, one thousand) FPS
+      - the computation is now heavily shifted towards GPU
+   - line / grid building - while placing a building, drag to queue a line of sites (Ctrl + drag for a grid). Mouse wheel during the drag changes the gap between buildings, and with several builders selected the sites get split among them.
+   - move line - with units selected, Shift + drag on the terrain spreads them evenly along the drawn line (works with order recording too, adding one waypoint per unit).
+   - ally pings - Alt+click on the terrain or the minimap marks a location for you and your allies, with a chat message, a sound, a blinking minimap marker and a pulsing ground marker. "Jump to last event" (Space) cycles to pings as well. Spectators see everyone's pings, players never see spectators' pings. Players without the feature are unaffected.
+   - queued build sites overlay - queued sites of your other builders (blue) and of allied builders / LC queues (yellow) are shown as tinted placement markers, including walls, trenches, bridges, tunnels, etc. Hovering a site shows what will be built and by whom. Spectators see every player's queued sites in their side colours.
+   - Earth Extensions settings are now configurable from within game options panel
+   - teams selection in game lobby (game modes that aren't FFA can still override it)
+   - minimap redesign:
+      - configurable minimap size, with a normal / large toggle button
+      - new button bar above the minimap with alternative views (terrain textures, passability, resource density, units only, second height palette), a filter for whose units are shown, and zoom steps (also available via the "Ieo.Minimap" console command)
+      - optional team colors (own / ally / neutral / enemy) instead of player colors
+      - your and your allies' buildings blink on the minimap while under attack
+   - lobby map preview - hovering the map icon next to "Level info" in skirmish and multiplayer lobbies shows the selected map with numbered start positions in player colors.
+   - multiplayer:
+      - version handshake - at the start of a game, players exchange their EarthExtensions versions (warns you when an ally can't see your pings).
+      - desync detector - players compare game state checksums every 5 seconds. A desync is reported in the chat and the details are logged. Replays get checked against their recording too.
+      - command delay display - your actual order delay (average of the last 10 orders, in ms) is shown in a screen corner.
+   - screenshots are saved as PNG files in the Screenshots directory, named with date and time. No more 1000-file limit, no overwriting, no corrupt files at resolutions like 1366x768
+   - display.show 1 will now show the name of the object under the cursor, along with it's mountable items names (for example LCUCR3 LCWMR3)
+
 2.11.0
    - more gamespeed options in skirmish (up to +10000%, if your PC can handle it)
    - joining a lobby displays 7 last characters of your game parameters hash
